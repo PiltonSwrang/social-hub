@@ -36,97 +36,93 @@
 </head>
 
 <style>
-    body {
-        font-family: 'Lora', serif;
+body {
+    font-family: 'Lora', serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lora', serif;
+}
+p{
+    font-family: 'Lora', serif;
+    width: 80%;
+}
+img {
+    width: 100%;
+}
+section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+section {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 40px ;
+}
+section p {
+    margin: 30px 0;
+}
+#spotlight {
+    text-align: left;
+}
+
+#footer button {
+    margin: 30px 0;
+}
+.icons i {
+    font-size: 2.5rem;
+    margin: 15px 30px;
+}
+
+.lastBtn {
+    margin-left: 20px;
+}
+
+.contact {
+    background-color: rgba(0, 4, 8, 0.067)12;
+}
+
+/* #op button:nth-last-child(2){
+    margin: 0 30px 0 0 ;
+} */
+
+@media only screen and (max-width:991px) {
+    #about .one {
+        order: 1;
     }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Lora', serif;
+    #about .two {
+        order:2;
     }
-
-    p {
-        font-family: 'Lora', serif;
-        width: 80%;
+    #op .one {
+        order: 1;
     }
-
-    img {
-        width: 100%;
+    #op .two {
+        order:2;
     }
-
-    section .row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 30px;
+}
+@media only screen and (max-width:438px) {
+    #op .lastBtn{
+        margin: 20px 0 0 0 ;
     }
+}
 
-    section {
-        width: 85%;
-        margin: 0 auto;
-        padding-bottom: 40px;
-    }
+.icons {
+    margin: 30px 0 ;
+}
+.icon1 {
+    height: 40px;
+    width: 40px;
+    margin: 15px 45px;
+    display: inline-block;
+}
 
-    section p {
-        margin: 30px 0;
-    }
-
-    #spotlight {
-        text-align: left;
-    }
-
-    #footer button {
-        margin: 30px 0;
-    }
-
-    .icons i {
-        font-size: 2.5rem;
-        margin: 15px 30px;
-    }
-
-    #footer .form-contact {
-        border: 1px solid black;
-        border-radius: 8px;
-        padding: 50px;
-        padding-bottom: 0;
-    }
-
-    .contact {
-        background-color: rgba(0, 4, 8, 0.067)12;
-    }
-
-    @media only screen and (max-width:991px) {
-        #about .one {
-            order: 1;
-        }
-
-        #about .two {
-            order: 2;
-        }
-
-        #op .one {
-            order: 1;
-        }
-
-        #op .two {
-            order: 2;
-        }
-    }
-
-    .icons {
-        margin: 30px 0;
-    }
-
-    .icon1 {
-        height: 40px;
-        width: 40px;
-        margin: 15px 45px;
-        display: inline-block;
-    }
+#footer .form-contact {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 30px;
+    padding-bottom: 0;
+}
 </style>
 
 <body>
@@ -144,6 +140,7 @@
                         <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
                             aria-label="Search">
                     </form>
+                    <br>
                 </div>
                 <div class="col-lg-6">
                     <!-- <nav class="navbar">
@@ -207,7 +204,7 @@
                         accusamus, doloribus deleniti unde? Harum, a!
                     </p>
                     <button class="btn btn-lg btn-dark">Join Now -----</button>
-                    <button class="btn btn-lg btn-dark" style="margin-left: 20px;">Learn More -----</button>
+                    <button class="btn btn-lg btn-dark lastBtn">Learn More -----</button>
                 </div>
             </div>
         </div>
